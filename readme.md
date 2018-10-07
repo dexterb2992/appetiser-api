@@ -25,12 +25,16 @@ See [WIKI](https://documenter.getpostman.com/view/1412838/RWgnYgR2) for the docu
 
 ## Installation
 
+``` bash
+# install dependencies
+$ composer install
 
-	composer install
+# copy and configure .env variables
+$ cp .env.example .env
 
-	php artisan migrate
+# migrate the database
+$ php artisan migrate
 
-	# serve at localhost:8000
-	php artisan serve
-
-
+# serve at localhost:8000
+$ php artisan serve
+```
