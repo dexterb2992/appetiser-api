@@ -28,7 +28,7 @@ See [WIKI](https://documenter.getpostman.com/view/1412838/RWgnYgR2) for the docu
 
 	composer install
 
-	php artisan migrate --seed
+	php artisan migrate
 
 	# serve at localhost:8000
 	php artisan serve
