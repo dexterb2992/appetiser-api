@@ -32,6 +32,9 @@ $ composer install
 # copy and configure .env variables
 $ cp .env.example .env
 
+# generate application key
+$ php artisan key:generate
+
 # migrate the database
 $ php artisan migrate
 
